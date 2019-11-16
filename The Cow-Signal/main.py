@@ -43,7 +43,6 @@ for sign in signal:
     for i in range(K):
         new_signal.append(new_line)
 
-
 with open('cowsignal.out', 'w') as f:
     for line in new_signal:
         f.write(line + '\n')
